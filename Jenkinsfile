@@ -11,5 +11,10 @@ pipeline {
                 echo 'Welcome to Stage -2'
             }
         }
+        stage('Stage 3') {
+            steps {
+                echo 'ci/cd with github'
+            }
+        }
     }
 }
